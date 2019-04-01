@@ -1,0 +1,43 @@
+from random import randint
+
+def Start_sim(): 
+    print "Welcome to world leader sim! Select your country's name."    
+    leader_name = str(raw_input('Choose a name')) #This code lets user write name.
+
+def class_choice()
+    print "Choose a class you need to help. Choose either Government, Rich Citizens, Poor Citizens, or Military."
+    class_selection = str(raw_input('Choose a class'))
+    if class_selection == "Government":
+        print ('A very good friend of yours turns his back on you and shares classified information to a rival country.')
+        print ('You have 2 choices, if you choose choice 1, you will publicly behead your friend.')
+        print ('If you select choice 2, you will banish your friend to a foreign land and never speak to him again.')
+        choice_selection = str(raw_input('Make a Choice'))
+        if choice_selection == "Choice 1":
+            print ('Your friend has been killed and you have shown your people you are a cold hearted, merciless leader')
+        if choice_selection == "Choice 2":
+            print ('Your friend is out of the country and out of your life, your citizens are proud thier leader made a mature choice.')
+    if class_selection == "Rich Citizens":
+        print ('The rich citizens in your country want to lower minimum wage, cutting the poor citizens already low pay.')
+        print ('What do you want to do, lower minimum wage, or keep it the same?') 
+        choice_selection = str(raw_input('lower, or keep same'))
+        if choice_selection == "lower": 
+            print ('The rich citizens are happy, but the poor citizens are angry, and are thretning to revolt.')
+         
+class Government: 
+    def __init__(officials):
+        officials.happiness = 10
+    
+    
+    
+    
+    class Rich_Citizens:
+    
+    class Poor_Citizens:
+    
+    class Military:
+    
+    class __init__(country): #controls country settings/country status 
+    country.status = 10
+    if country.status < 3: print "%'s citizens are rioting and its government is collapsing!" % (leader_name)
+    if country.status < 7: print "%'s citizens are unhappy and its government is deteriorating!" % (leader_name)    
+    if country.status > 7: print "%'s citizens are happy and its government is improving!" % (leader_name)
